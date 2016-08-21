@@ -1,0 +1,19 @@
+
+a{
+	text-decoration:none;
+}
+.text-center{
+	color:#dc4068;
+}
+body{
+	background-color: #272727;
+}
+footer{
+	background-color: #dc4068;
+	color:black;
+}
+.pd{
+	padding: 2% 30%;
+	color:white;
+	text-align: center;
+}

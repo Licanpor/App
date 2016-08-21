@@ -1,11 +1,12 @@
-.cuadrolila{
-	margin-bottom: 10%;
-	padding: 6%;
-}
 body{
 	background-color: #272727;
 	color:white;
 }
 h2{
 	color:#dc4068;
+	padding: 6% 0%;
+}
+.pd{
+	padding-top:6%;
+	
 }
