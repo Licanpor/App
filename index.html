@@ -3,37 +3,95 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-		<title>Document</title>
+		<title>Index App</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/common.css">
-		
-
 	</head>
 	<body>
 		<header>
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12">
-						<img src="img/.png" alt="logo"><!--imagen de logo-->
+					<div class="col-xs-6"> 
+						<ul class="nav nav-pills">
+							<li>
+								<a href="share.html">   <!-- Noticias -->
+									<span class="glyphicon glyphicon-edit"><p>Comenta</p></span>
+								</a>
+							</li>
+						</ul>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12">
-						<form name="Log In" method="post">
-							<input type="text" name="Usuario">
-							<input type="text" name="Mail">
-							<input type="password" name="Contraseña">
-							<button>SUBMIT</button>
-						</form>
+					<div class="col-xs-6">
+						<img class="imgb" src="img/index/brujula.png" alt="brujula">
 					</div>
 				</div>
 			</div>
 		</header>
-
-
-
-
+		<section  class="bg-map img-responsive">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="showup.html">
+							<img class="img-responsive" src="img/index/circulo.png" alt="circulo">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="#">
+							<img class="img-responsive" src="img/index/circulo.png" alt="pie">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="#">
+							<img class="img-responsive" src="img/index/circulo.png" alt="pie">
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="#">
+							<img class="img" src="img/index/corazon.png" alt="corazon">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-3">
+						<ul class="nav nav-pills">
+							<li>
+								<a href="user.html">   <!-- Usuario -->
+									<span class="glyphicon glyphicon-user"><p>Usuario</p></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xs-3">
+						<ul class="nav nav-pills">
+							<li>
+								<a href="search.html">   <!-- Buscar -->
+									<span class="glyphicon glyphicon-search"><p>Buscar</p></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xs-3">
+						<ul class="nav nav-pills">
+							<li>
+								<a href="setting.html">   <!-- Configuración -->
+									<span class="glyphicon glyphicon-cog"><p>Configuración</p></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
 		<script src="js/jquery-1.11.3.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
